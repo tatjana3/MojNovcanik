@@ -1,0 +1,34 @@
+Sadrzaj projekta:
+
+- Registracija
+- Log in
+- Menjanje valute
+- Placanje racuna
+- Pregled racuna (Filteri: svi, po broju racuna, po kategoriji)
+- Izadji opcija
+
+   
+  
+REGISTRACIJA
+-Korisniku se trazi username,password i ponovljen password, potom se ti podaci ako su validni upisuju u Excel
+
+LOG IN
+- Korisni upisuje username i password koji se proveravaju u odnosu na Excel, ako su username i password u istom redu u Excelu poklopljeni sa unesenim onda je korisnik ulogovan.
+
+MENJANJE VALUTA 
+- Kada je korisnik ulogovan on moze da pristupi posebnom meniju gde moze da promeni valutu, default-na valuta je dinar (RSD). Ima opciju da promeni valutu na USD ili EUR.
+
+PLACANJE RACUNA 
+- Korisnik da bi platio racun unosi broj racuna, kategoriju ( Odeca,Hrana,...) i cenu u izabranoj valuti. Nakon sto unese sve informacije treba da potvrdi da li zeli da
+nastavi sa transakcijom. Ako ne zeli vratice se na glavni meni, a ako zeli podaci o transakciji ce biti upisani u posebnom sheet-u za tog korisnika. 
+
+PREGLED RACUNA 
+- Korisnik moze da vidi pregled svih svojih racuna i pre nego sto vidi sve racune pokazuje mu se "filter" meni gde bira izmedju tri opcije: 
+	- Da vidi sve racune
+	- Da pretrazi po broju racuna
+	- Da pretrazu po imenu kategorije
+
+IZADJI OPCIJA
+-Izlazi iz aplikacije
+                                                                                                                                             
+
